@@ -1,0 +1,16 @@
+.image{
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 5px 10px 0 rgba(15, 15, 15, 0.37);
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width:100vw;
+    height:50vh;
+    display:flex;
+    flex-direction:column;
+    margin-top:65.5;
+    align-items:center;
+    justify-content:center;
+    color:black
+}

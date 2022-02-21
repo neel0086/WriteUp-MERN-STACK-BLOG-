@@ -1,0 +1,21 @@
+.post_scroll::-webkit-scrollbar{
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .post_scroll {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+.box1{
+  color: var(--white);
+}
+.box1{
+    padding-bottom: 50px;
+    
+}
+.post_scroll{
+    overflow:scroll;
+    max-width:100vw;
+    display: flex;
+}

@@ -1,0 +1,13 @@
+
+.view::-webkit-scrollbar{
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .innerbox ,.childbox2 .center{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+.view{
+    width:500px;
+}
